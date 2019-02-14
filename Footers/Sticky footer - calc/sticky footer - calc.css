@@ -1,0 +1,36 @@
+/* ==== Footer styles ==== */
+
+.content {
+  min-height: calc(100vh - 50px);
+}
+
+.footer {
+  height: 50px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: blue;
+}
+
+.content,
+.footer {
+  padding: 10px;
+  color: white;
+  font-family: 'Arial', sans-serif;
+  font-size: 1.125rem;
+}
+
+.content {
+  background: red;
+  height: 200px;
+}
+
+.footer {
+  background: green;
+}
+
+
