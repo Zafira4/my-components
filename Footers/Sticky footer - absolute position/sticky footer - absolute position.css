@@ -1,0 +1,43 @@
+/* ==== Footer styles ==== */
+
+.wrapper {
+  min-height: 100vh;
+  position: relative;
+  padding-bottom: 50px; /* Equals height of the footer and pushes away the content in the case they would touch. */
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: 50px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: blue;
+}
+
+.content,
+.footer {
+  padding: 10px;
+  color: white;
+  font-family: 'Arial', sans-serif;
+  font-size: 1.125rem;
+}
+
+.content {
+  background: red;
+  height: 300px;
+}
+
+.footer {
+  background: green;
+}
+
+
+
